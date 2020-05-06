@@ -1,0 +1,20 @@
+{
+	"Peliculas":[
+
+			{	"id" : "1",
+				"titulo" : "Avenger Endgame",
+				"sinopsis" : "Guerra en el universo",
+				"productor" : "Hernesto Leon",
+				"estreno" : "2018" 
+			},
+			
+			{
+				"id" : "2",
+				"titutlo" : "¿Donde estan las Rubias?",
+				"sinopsis" : "policias se difrazan",
+				"productor" : "Juan Santoro",
+				"estreno" : "2005"
+			}
+
+	]
+}

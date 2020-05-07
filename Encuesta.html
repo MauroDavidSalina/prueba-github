@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Practica 1 con CSS- App. Moviles </title>
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
 
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="utf-8">
+    <title>Practica 1 con CSS- App. Moviles </title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
         <div id="topbar">
             <img id="logo" src="./img/logo.png" alt="imagen del logo">
-            <h1 id="titulo">Reseñas peliculas Todopelis</h1>    
+            <h1 id="titulo">Reseñas peliculas Todopelis</h1>
         </div>
-        </header>
-        <main class="main">
-            <div id="body-section">
-                <nav class="menu">
-                    <div id="nav-bar-aside"> 
-                        <p><a href="Index.html">PAGINA PRINCIPAL</a></p>
-                        <p><a href="accion_fantasia.html">ACCION/FANTASIA</a></p>
-                        <p><a href="Comedia.html">COMEDIA</a></p>
-                        <p><a href="Ciencia_ficcion.html">CIENCIA FICCION</a></p>
-                        <p><a href="Terror.html">TERROR</a></p>
-                        <p><a href="Animacion.html">ANIMACION</a></p>
-                        <p><a href="#titulo" class="active">ENCUESTA</a></p>
-                    </div>
-                </nav>
-                <div  class="section-central">
-                    <section>
-                        <h2>ENCUESTA</h2>
-                        <div class="formulario">
-                            <article id="formulario">
-                                <form action="" id="form-general">
-                                    <p class="elemento-form"><label for="nombre">Nombre: </label> <input type="text" placeholder="Ingrese su nombre" id="nombre" ></p>
-                                    <p class="elemento-form"><label for="apellido">Apellido: </label> <input type="text" placeholder="Igrese su apellido" id="apellido" ></p>
-                                    <p class="elemento-form"><label for="nac">Fecha de nacimiento: </label> <input type="date" id="nac" ></p>
-                                    <p class="elemento-form"><label for="sexo">Sexo: </label> <span>Masculino <input type="radio" name="sexo" value="Masculino" id="masculino" ></span><span>Femenino <input type="radio" name="sexo" value="Femenino" id="femenino" ></span> </p>
-                                    <p class="elemento-form"><label for="valoracion">Valoracion de la pagina: </label> 
-                                       <select id="valoracion"> 
-                                            <option value="5">Lamentable</option>
-                                            <option value="4">Mala</option>
-                                            <option value="3">Podria ser mejor</option>
-                                            <option value="2">Cumple mis expectativas</option>
-                                            <option value="1">Me encanto</option>
-                                            <option selected value="">Seleccione una opcion...</option>
-                                       </select> </p>
-                                       <p class="elemento-form"><label for="email">Email: </label> <input type="email" id="email" ></p>
-                                    <p class="elemento-form">
-                                        <label for="com">Comentario:</label>
-                                        <textarea name="" id="com" cols="30" rows="5"></textarea>
-                                    </p>
-                                    <p id="botones"> 
-                                        <input type="submit" value="Enviar" class="boton elemento-form" id="enviar" > 
-                                        <input type="button" value="Cancelar" class="boton" id="cancelar">
-                                        <input type="button" value="Restablecer valores" class="boton" id="restablecer"> 
-                                    </p>         
-                                </form>
-                            </article>
-                        </div>
-                    </section>
+    </header>
+    <main class="main">
+        <div id="body-section">
+            <nav class="menu">
+                <div id="nav-bar-aside">
+                    <p><a href="Index.html">PAGINA PRINCIPAL</a></p>
+                    <p><a href="accion_fantasia.html">ACCION/FANTASIA</a></p>
+                    <p><a href="Comedia.html">COMEDIA</a></p>
+                    <p><a href="Ciencia_ficcion.html">CIENCIA FICCION</a></p>
+                    <p><a href="Terror.html">TERROR</a></p>
+                    <p><a href="Animacion.html">ANIMACION</a></p>
+                    <p><a href="#titulo" class="active">ENCUESTA</a></p>
                 </div>
+            </nav>
+            <div class="section-central">
+                <section>
+                    <h2>ENCUESTA</h2>
+                    <div class="formulario">
+                        <article id="formulario">
+                            <form action="" id="form-general">
+                                <p class="elemento-form"><label for="nombre">Nombre: </label> <input type="text"
+                                        placeholder="Ingrese su nombre" id="nombre"></p>
+                                <p class="elemento-form"><label for="apellido">Apellido: </label> <input type="text"
+                                        placeholder="Igrese su apellido" id="apellido"></p>
+                                <p class="elemento-form"><label for="nac">Fecha de nacimiento: </label> <input
+                                        type="date" id="nac"></p>
+                                <p class="elemento-form"><label for="sexo">Sexo: </label> <span>Masculino <input
+                                            type="radio" name="sexo" value="Masculino"
+                                            id="masculino"></span><span>Femenino <input type="radio" name="sexo"
+                                            value="Femenino" id="femenino"></span> </p>
+                                <p class="elemento-form"><label for="valoracion">Valoracion de la pagina: </label>
+                                    <select id="valoracion">
+                                        <option value="5">Lamentable</option>
+                                        <option value="4">Mala</option>
+                                        <option value="3">Podria ser mejor</option>
+                                        <option value="2">Cumple mis expectativas</option>
+                                        <option value="1">Me encanto</option>
+                                        <option selected value="">Seleccione una opcion...</option>
+                                    </select> </p>
+                                <p class="elemento-form"><label for="email">Email: </label> <input type="email"
+                                        id="email"></p>
+                                <p class="elemento-form">
+                                    <label for="com">Comentario:</label>
+                                    <textarea name="" id="com" cols="30" rows="5"></textarea>
+                                </p>
+                                <p id="botones">
+                                    <input type="submit" value="Enviar" class="boton elemento-form" id="enviar">
+                                    <input type="button" value="Cancelar" class="boton" id="cancelar">
+                                    <input type="button" value="Restablecer valores" class="boton" id="restablecer">
+                                </p>
+                            </form>
+                        </article>
+                    </div>
+                </section>
             </div>
-            
-        </main>
-        <footer id=pie>
-            <p>&copy; 2020, Aplicaciones móviles UNAJ</p>
-        </footer>
-    </body>
+        </div>
+
+    </main>
+    <footer id=pie>
+        <p>&copy; 2020, Aplicaciones móviles UNAJ</p>
+    </footer>
+</body>
 
 </html>

@@ -1,0 +1,28 @@
+{
+  "peliculas": [
+    {
+      "titulo": "Batman Inicia",
+      "sinopsis": "Lorem id culpa elit reprehenderit dolor labore. Commodo culpa ex adipisicing non. Ipsum ut et laborum proident Lorem exercitation commodo ut cupidatat proident duis culpa labore. Ut pariatur sunt Lorem consectetur deserunt. Pariatur aute aliquip esse ad mollit adipisicing dolore. Commodo veniam aliqua est ullamco officia est irure non. Dolore quis ad nulla aliquip deserunt consequat ad mollit minim cupidatat adipisicing qui ex excepteur.\r\n",
+      "genero": "Accion",
+      "poster": "img/Batman Begins.jpg"
+    },
+    {
+      "titulo": "Thor Ragnarok",
+      "sinopsis": "Reprehenderit laboris proident Lorem quis do dolore reprehenderit irure id aliquip consequat laboris. Eiusmod commodo duis officia exercitation exercitation reprehenderit enim culpa consequat laboris nulla nisi elit quis. In Lorem fugiat velit elit. Sit dolore adipisicing irure voluptate nostrud dolor do officia pariatur Lorem est pariatur incididunt. Culpa excepteur excepteur eiusmod elit elit mollit et dolor enim ex laborum sit. Officia et anim qui commodo et anim.\r\n",
+      "genero": "Accion",
+      "poster": "img/thor.jpg"
+    },
+    {
+      "titulo": "Avengers: EndGame",
+      "sinopsis": "Cupidatat ea aliqua mollit mollit amet cupidatat exercitation ea pariatur cupidatat cillum Lorem eiusmod. Sint ex magna pariatur sit anim qui id ea. Occaecat anim Lorem dolore minim pariatur tempor sit. Dolor ullamco mollit velit voluptate culpa esse eiusmod aliqua aliquip excepteur. Et velit sunt velit velit nisi elit excepteur ut.\r\n",
+      "genero": "Accion",
+      "poster": "img/endgame.jpg"
+    },
+    {
+      "titulo": "Aquaman",
+      "sinopsis": "Amet nisi nulla deserunt veniam incididunt est. Sunt aliquip elit proident mollit culpa ullamco nostrud et aute consectetur dolor cupidatat. Anim fugiat dolore in sunt veniam nostrud sunt ullamco pariatur ad commodo aliquip id non. Fugiat voluptate duis commodo elit nostrud qui est adipisicing. Veniam sint quis eu et tempor deserunt cupidatat labore.\r\n",
+      "genero": "Accion",
+      "poster": "img/acuaman.jpg"
+    }
+  ]
+}
